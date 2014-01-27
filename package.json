@@ -1,0 +1,14 @@
+{
+  "name": "packbug",
+  "version": "0.0.0",
+  "description": "Reproduce packaging bug leaving out build folder from certain depth",
+  "main": "index.js",
+  "dependencies": {
+    "helloworld": "~0.0.0"
+  },
+  "bundledDependencies": [
+    "helloworld"
+  ],
+  "author": "Martijn Swaagman",
+  "license": "ISC"
+}
